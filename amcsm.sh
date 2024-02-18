@@ -1,5 +1,5 @@
 #!/bin/bash
-echo Welcome to Admonitos Minecraft Server Maker!
+echo Welcome to Admonitos Minecraft Server Maker! [amcsm]
 echo What kind of Minecraft Server Do You Want?
 echo [1] Vanilla [2] Spigot [3] PaperMC
 read servernum
@@ -14,6 +14,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 2 ];then
@@ -23,6 +31,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 3 ];then
@@ -32,6 +48,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 4 ];then
@@ -41,6 +65,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 5 ];then
@@ -50,6 +82,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 6 ];then
@@ -59,6 +99,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 7 ];then
@@ -67,7 +115,7 @@ wget https://launcher.mojang.com/mc/game/1.2.5/server/d8321edc9470e56b8ad5c67bbd
 echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar server.jar nogui >> start.sh
 echo Giving Server Startfile permissions
-sudo chmod a+x start.sh
+sudo chmod a+x start.sh 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 fi
@@ -82,6 +130,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.20.4.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 2 ];then
@@ -91,6 +147,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.16.4.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 3 ];then
@@ -100,6 +164,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.14.4.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 4 ];then
@@ -109,6 +181,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.12.2.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 5 ];then
@@ -118,6 +198,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.8.8-R0.1-SNAPSHOT-latest.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 6 ];then
@@ -127,6 +215,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar spigot-1.7.10-SNAPSHOT-b1657.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 if [ $vanillanum -eq 7 ];then
@@ -150,6 +246,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar paper-1.20.4-429.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
     if [ $papernum -eq 2 ];then
@@ -159,6 +263,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar paper-1.16.4-416.jar >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
     if [ $papernum -eq 3 ];then
@@ -168,6 +280,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar paper-1.14.4-245.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
     if [ $papernum -eq 4 ];then
@@ -177,6 +297,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar paper-1.12.2-1620.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
     if [ $papernum -eq 5 ];then
@@ -186,6 +314,14 @@ echo Making Server Startfile
 echo java -Xmx1024M -Xms1024M -jar paper-1.8.8-445.jar nogui >> start.sh
 echo Giving Server Startfile permissions
 sudo chmod a+x start.sh
+echo Do You Accept The EULA? y/n
+read eula
+if [ $eula = y ];then
+echo Making eula.txt And Accepting The Eula
+echo eula=true >> eula.txt
+elif [ $eula = n ];then
+echo Sorry,You Cant Make A Minecraft Server Without Accepting The Eula!
+fi 
 echo Script Finished Running. You Can Start The Server By Typing "./start.sh".
     fi
 fi
