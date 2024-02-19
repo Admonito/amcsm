@@ -1,5 +1,7 @@
 # Admonito's Minecraft Server Maker
 This will shell script will make you a minecraft server in 10 secs!
+
+A [Youtube](https://www.youtube.com/watch?v=dIafbHIno1s) video about the script
 > The Script is written for GNU/Linux.
 
 ![img1](https://i.imgur.com/TZ8yvrR.png)
